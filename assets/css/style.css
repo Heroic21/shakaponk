@@ -7,6 +7,7 @@ body{
     color:#CECECE;
     font-family: 'Anton', sans-serif;
     font-size: 25px;
+    width: 100%
     
 
 }
@@ -71,6 +72,7 @@ h1{ font-size:40px;
   }
 
   .team{
+    width: 30%;
     display: flex;
     flex-direction: column;
   }
@@ -108,13 +110,13 @@ h1{ font-size:40px;
     }
 
 
-    .accueilvideo{vertical-align: baseline;}
+    .accueilvideo{width: 70%}
 
     
-
+.mw100{max-width: 100%;}
     .d-flex{
       display: flex;
-      align-items: center;
+     
     }
 
     .txtvideoindex{
@@ -151,6 +153,13 @@ h1{ font-size:40px;
     .fs2{font-size: 2rem}
 
     .widht50{width: 50%}
+  .goz{ margin: 5%}
+  .steeve{ margin: 5%}
+  .cc{ margin: 5%}
+  .sam{ margin:5%}
+  .frah{ margin:5%}
+  .ion{ margin: 5%}
+
 
     
     
