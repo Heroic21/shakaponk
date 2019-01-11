@@ -70,14 +70,14 @@ h1{ font-size:40px;
     font-size: 30px;
   }
 
-  .team{
+  .team {
     display: flex;
     flex-direction: column;
-  }
+  } 
 
   .team > div{ margin: 30px 30px 30px 0;}
 
-  .accueil{
+  .accueil {
     display: flex;
     flex-wrap: wrap;
   }
@@ -92,65 +92,68 @@ h1{ font-size:40px;
     background-color:red;
   }
 
-  .photo1{
-
-    height:150; width:380; }
+  .photo1 {height:150; width:380; }
 
 
-    .photobio{
+  .photobio {
       display: block;
       margin-left: auto;
       margin-right: auto}
 
-    .flex{
+  .flex {
       display:flex;
       padding-left: 3em;
     }
 
+  .accueilvideo{vertical-align: baseline;}
 
-    .accueilvideo{vertical-align: baseline;}
-
-    
-
-    .d-flex{
+  .d-flex {
       display: flex;
       align-items: center;
     }
 
-    .txtvideoindex{
+  .txtvideoindex {
       width: 50%;
       margin-left: 2em;
       line-height: 3.5rem;
     }
 
-    .txtcenter
-
-    .ban{
+  .ban {
       max-width: 100%;
       margin-top: 30px;
       margin-bottom: 3em;
     }
 
-    .ml{
+  .ml {
       width: 50%;
       text-align: justify;
     }
 
-    .img{
+  .img {
       display:block;
-    width:auto;
-    margin-left:auto;
-    margin-right:auto;
-
+      width:auto;
+      margin-left:auto;
+      margin-right:auto;
     }
 
-    .mb2{margin-bottom: 2em;}
-    .ml40{margin-left: 40px}
+  .mb2  {margin-bottom: 2em;}
+  .ml40 {margin-left: 40px;}
 
-    .fs3{font-size: 3rem;}
-    .fs2{font-size: 2rem}
+  .fs3  {font-size: 3rem;}
+  .fs2  {font-size: 2rem;}
 
-    .widht50{width: 50%}
+  .widht50  {width: 50%;}
 
+  .footer {
+    width: 100%;
+    height: 100px;
+    margin-top: 30%;}
+
+  .copy{
+    font-size: 15px;
+    text-align: justify;
+    text-align: right;
+    padding-bottom: 10px;
+  }
     
     
