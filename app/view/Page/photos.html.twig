@@ -1,0 +1,174 @@
+{# page code html #}
+{% extends 'Layout/layout.html.twig' %} 
+
+{% block title %}
+    {{ parent() }} - Videos{# permet de changer nom de page #}
+{% endblock %}
+
+{% block content %}
+<!-- ShareThis Header Script -->
+<script type="text/javascript">
+	var switchTo5x=true;
+</script>
+<script type="text/javascript" id="st_insights_js" src="https://w.sharethis.com/button/buttons.js?publisher=4bc2da10-35bc-4228-ac66-45deee4f3d4f-10exp-Y&product=widget"></script>
+<script type="text/javascript" src="https://s.sharethis.com/loader.js"></script>
+<!--Code End-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<div itemscope class="container" style="opacity: 0.9;">
+
+	
+	
+	<!-- GAllery-->
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+	<link rel="stylesheet" href="https://raw.github.com/blueimp/Bootstrap-Image-Gallery/master/css/bootstrap-image-gallery.css">
+	<link rel="stylesheet" href="https://raw.github.com/blueimp/Bootstrap-Image-Gallery/master/css/demo.css">
+
+	<div style="background-color: grey; opacity: 0.9;" class="container">
+		<P id="gallery">Gallery</p>
+
+		<!-- The container for the list of images -->
+		<div id="links">
+			<a data-gallery="" title="Asala Nasri" href="assets/image/1.jpg">
+				<img style="height:160px; width: auto;" src="assets/image/1.jpg">
+			</a>
+			<a data-gallery="" title="Asala Nasri" href="assets/image/2.jpg">
+				<img style="height:160px; width: auto;" src="assets/image/2.jpg">
+			</a>
+			<a data-gallery="" title="Asala Nasri" href="assets/image/3.jpg">
+				<img style="height:160px; width: auto;" src="assets/image/3.jpg">
+			</a>
+			<a data-gallery="" title="Asala Nasri" href="assets/image/4.jpg">
+				<img style="height:160px; width: auto;" src="assets/image/4.jpg">
+			</a>
+			<a data-gallery="" title="Asala Nasri" href="assets/image/5.jpg">
+				<img style="height:160px; width: auto;" src="assets/image/5.jpg">
+			</a>
+			<a data-gallery="" title="Asala Nasri" href="assets/image/6.jpg">
+				<img style="height:160px; width: auto;" src="assets/image/6.jpg">
+			</a>
+
+			<a data-gallery="" title="Asala Nasri" href="assets/image/7.jpg">
+				<img style="height:160px; width: auto;" src="assets/image/7.jpg">
+			</a>
+			<a data-gallery="" title="Asala Nasri" href="assets/image/8.jpg">
+				<img style="height:160px; width: auto;" src="assets/image/8.jpg">
+			</a>
+			<a data-gallery="" title="Asala Nasri" href="assets/image/9.jpg">
+				<iimg style="height:160px; width: auto;" src="assets/image/9.jpg">
+			</a>
+			<a data-gallery="" title="Asala Nasri" href="assets/image/10.jpg">
+				<img style="height:160px; width: auto;" src="assets/image/10.jpg">
+			</a>
+			<a data-gallery="" title="Asala Nasri" href="assets/image/11.jpg">
+				<img style="height:160px; width: auto;" src="assets/image/11.jpg">
+			</a>
+			<a data-gallery="" title="Asala Nasri" href="assets/image/12.jpg">
+				<img style="height:160px; width: auto;" src="assets/image/12.jpg">
+            </a>
+            <a data-gallery="" title="Asala Nasri" href="assets/image/13.jpg">
+				<img style="height:160px; width: auto;" src="assets/image/13.jpg">
+			</a>
+			<a data-gallery="" title="Asala Nasri" href="assets/image/14.jpg">
+				<img style="height:160px; width: auto;" src="assets/image/14.jpg">
+			</a>
+			<a data-gallery="" title="Asala Nasri" href="assets/image/15.jpg">
+				<img style="height:160px; width: auto;" src="assets/image/15.jpg">
+            </a>
+            </a>
+            <a data-gallery="" title="Asala Nasri" href="assets/image/16.jpg">
+                <img style="height:160px; width: auto;" src="assets/image/16.jpg">
+            </a>
+            <a data-gallery="" title="Asala Nasri" href="assets/image/17.jpg">
+                <img style="height:160px; width: auto;" src="assets/image/17.jpg">
+            </a>
+            <a data-gallery="" title="Asala Nasri" href="assets/image/18.jpg">
+                <img style="height:160px; width: auto;" src="assets/image/18.jpg">
+            </a>
+			
+
+		</div>
+		<br>
+	</div>
+	<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+	<div id="blueimp-gallery" class="blueimp-gallery">
+		<!-- The container for the modal slides -->
+		<div class="slides"></div>
+		<!-- Controls for the borderless lightbox -->
+		<h3 class="title"></h3>
+		<a class="prev">‹</a>
+		<a class="next">›</a>
+		<a class="close">×</a>
+		<a class="play-pause"></a>
+		<ol class="indicator"></ol>
+		<!-- The modal dialog, which will be used to wrap the lightbox content -->
+		<div class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" aria-hidden="true">×</button>
+						<h4 class="modal-title"></h4>
+					</div>
+					<div class="modal-body next"></div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                    </button>
+						<button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<!-- Bootstrap JS is not required, but included for the responsive demo navigation and button states -->
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+<script src="https://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+<script src="https://raw.github.com/blueimp/Bootstrap-Image-Gallery/master/js/bootstrap-image-gallery.js"></script>
+<script src="https://raw.github.com/blueimp/Bootstrap-Image-Gallery/master/js/demo.js"></script>
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+
+<!-- Share  This Footer Script-->
+<script type="text/javascript">
+	stLight.options({publisher: "4bc2da10-35bc-4228-ac66-45deee4f3d4f-10exp-Y", doNotHash: false, doNotCopy: false, hashAddressBar: false});
+</script>
+<script>
+	var options={ "publisher": "4bc2da10-35bc-4228-ac66-45deee4f3d4f-10exp-Y", "logo": { "visible": true, "url": "https://codepen.io/ekhamis/full/gwdrgx/", "img": "http://www.suenamp3.com/cdn/mini-artistas/asala-nasri.jpg", "height": 60}, "ad": { "visible": false, "openDelay": "5", "closeDelay": "0"}, "livestream": { "domain": "", "type": "sharethis"}, "ticker": { "visible": false, "domain": "", "title": "", "type": "sharethis"}, "facebook": { "visible": false, "profile": "sharethis"}, "fblike": { "visible": false, "url": ""}, "twitter": { "visible": false, "user": "sharethis"}, "twfollow": { "visible": false}, "custom": [{ "visible": false, "title": "Custom 1", "url": "", "img": "", "popup": false, "popupCustom": { "width": 300, "height": 250}}, { "visible": false, "title": "Custom 2", "url": "", "img": "", "popup": false, "popupCustom": { "width": 300, "height": 250}}, { "visible": false, "title": "Custom 3", "url": "", "img": "", "popup": false, "popupCustom": { "width": 300, "height": 250}}], "chicklets": { "items": ["facebook", "twitter", "linkedin", "pinterest", "email", "sharethis"]}};
+	var st_bar_widget = new sharethis.widgets.sharebar(options);
+</script>
+
+<!-- Eyad NavBar
+<div class="container">
+	<div class="btn-group btn-group-justified">
+		<div class="btn-group"><button type="button" class="btn btn-default"> <a href="#"> <i class="fa fa-home"></i> Home</a></button></div>
+
+		<div class="btn-group"> <button type="button" class="btn btn-default"> <a href="#bio"><i class="fa fa-female"></i> Biography </a></button></div>
+
+		<div class="btn-group"><button type="button" class="btn btn-default"><a href="#discography"><i class="fa fa-music"></i> Discography</a> </button></div>
+
+		<div class="btn-group"><button type="button" class="btn btn-default"> <a href="#gallery"><i class="fa fa-picture-o"></i> Gallery</a></button>
+		</div>
+
+		<div class="btn-group"><button type="button" class="btn btn-default"> <a href="https://www.facebook.com/AssalaOfficial" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i> facebook</a></button>
+		</div>
+
+		<div class="btn-group"><button type="button" class="btn btn-default"> <a href="https://www.youtube.com/AssalaOfficial" target="_blank"><i class="fa fa-youtube-square" aria-hidden="true"></i> YouTube</a></button></div>
+	</div>
+</div>
+</div>
+-->
+{% endblock %} 
